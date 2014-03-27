@@ -1,6 +1,4 @@
 require 'spec_helper'
-require './lib/link.rb'
-require './lib/tag.rb'
 
 describe Link do
 
