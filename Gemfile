@@ -7,7 +7,7 @@ gem 'bcrypt-ruby'
 gem 'dm-postgres-adapter'
 gem 'rack-flash3'
 gem 'sinatra-partial'
-
+gem 'heroku'
 
 group :development, :test do
 	gem "rspec"

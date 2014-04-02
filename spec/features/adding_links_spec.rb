@@ -22,6 +22,7 @@ require 'spec_helper'
 		end
 
 		def add_link(url, title, tags = [])
+			visit "/"
 			within('#new-link') do
 				fill_in 'url', :with => url
 				fill_in 'title', :with => title
